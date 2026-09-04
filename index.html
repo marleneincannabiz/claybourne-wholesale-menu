@@ -1,0 +1,782 @@
+<title>Claybourne Wholesale Menu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ground:#F1EEE6;
+    --surface:#FFFFFF;
+    --surface-2:#E9E3D3;
+    --ink:#211D16;
+    --ink-dim:#6E6656;
+    --line:#DBD3BE;
+    --accent:#9C7420;
+    --accent-ink:#FFFFFF;
+    --accent-soft:#EFE1BC;
+    --sage:#4F6E48;
+    --indica:#6B5B95;
+    --sativa:#AD6427;
+    --hybrid:#4F6E48;
+    --hybrid-id:#2F717A;
+    --stock-in:#3F7D46;
+    --stock-low:#C1691F;
+    --stock-out:#A14343;
+    --shadow: 0 1px 2px rgba(33,29,22,.06), 0 8px 24px -12px rgba(33,29,22,.18);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#131110;
+      --surface:#1D1A16;
+      --surface-2:#262119;
+      --ink:#F2EDE2;
+      --ink-dim:#AFA692;
+      --line:#37301F;
+      --accent:#D7AC52;
+      --accent-ink:#1A1611;
+      --accent-soft:#3B301A;
+      --sage:#8FB283;
+      --indica:#A895D4;
+      --sativa:#E39A5E;
+      --hybrid:#8FB283;
+      --hybrid-id:#63B3BC;
+      --stock-in:#7FBF7A;
+      --stock-low:#E0A94F;
+      --stock-out:#E08585;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 28px -14px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#131110;
+    --surface:#1D1A16;
+    --surface-2:#262119;
+    --ink:#F2EDE2;
+    --ink-dim:#AFA692;
+    --line:#37301F;
+    --accent:#D7AC52;
+    --accent-ink:#1A1611;
+    --accent-soft:#3B301A;
+    --sage:#8FB283;
+    --indica:#A895D4;
+    --sativa:#E39A5E;
+    --hybrid:#8FB283;
+    --hybrid-id:#63B3BC;
+    --stock-in:#7FBF7A;
+    --stock-low:#E0A94F;
+    --stock-out:#E08585;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 28px -14px rgba(0,0,0,.6);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"Work Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.4;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:640px;margin:0 auto;padding:0 16px;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    padding:28px 0 18px;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.72rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 6px;
+  }
+  .wordmark{
+    font-family:"Instrument Serif", Georgia, serif;
+    font-size:2.6rem;
+    line-height:1.02;
+    margin:0 0 6px;
+    text-wrap:balance;
+    letter-spacing:.005em;
+  }
+  .hero-sub{
+    margin:0 0 18px;
+    color:var(--ink-dim);
+    font-size:.92rem;
+    max-width:52ch;
+  }
+  .resource-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .resource-link{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    padding:8px 13px;
+    border:1px solid var(--line);
+    border-radius:999px;
+    color:var(--ink);
+    text-decoration:none;
+    font-size:.82rem;
+    font-weight:500;
+    background:var(--surface);
+    transition:border-color .15s ease, color .15s ease;
+  }
+  .resource-link:hover{border-color:var(--accent);color:var(--accent);}
+  .resource-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .resource-link svg{width:14px;height:14px;flex:none;}
+  .compliance{
+    margin:16px 0 0;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.68rem;
+    letter-spacing:.03em;
+    color:var(--ink-dim);
+    max-width:56ch;
+  }
+  .compliance + .compliance{margin-top:6px;}
+
+  /* ---------- controls ---------- */
+  .controls{
+    position:sticky;
+    top:0;
+    z-index:5;
+    background:var(--ground);
+    padding:12px 0 10px;
+    border-bottom:1px solid var(--line);
+  }
+  .search-row{
+    display:flex;
+    gap:8px;
+    margin-bottom:10px;
+  }
+  .search-box{
+    position:relative;
+    flex:1;
+    min-width:0;
+  }
+  .search-box svg{
+    position:absolute;
+    left:12px;
+    top:50%;
+    transform:translateY(-50%);
+    width:15px;
+    height:15px;
+    color:var(--ink-dim);
+    pointer-events:none;
+  }
+  #search{
+    width:100%;
+    padding:10px 12px 10px 34px;
+    border-radius:10px;
+    border:1px solid var(--line);
+    background:var(--surface);
+    color:var(--ink);
+    font-family:inherit;
+    font-size:.92rem;
+  }
+  #search:focus-visible{outline:2px solid var(--accent);outline-offset:1px;}
+  #search::placeholder{color:var(--ink-dim);}
+  .toggle-all{
+    flex:none;
+    padding:10px 14px;
+    border-radius:10px;
+    border:1px solid var(--line);
+    background:var(--surface);
+    color:var(--ink);
+    font-family:inherit;
+    font-size:.82rem;
+    font-weight:600;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .toggle-all:hover{border-color:var(--accent);color:var(--accent);}
+  .chip-row{
+    display:flex;
+    gap:6px;
+    overflow-x:auto;
+    scrollbar-width:none;
+    padding-bottom:2px;
+  }
+  .chip-row::-webkit-scrollbar{display:none;}
+  .chip{
+    flex:none;
+    padding:6px 12px;
+    border-radius:999px;
+    border:1px solid var(--line);
+    background:var(--surface);
+    color:var(--ink-dim);
+    font-size:.76rem;
+    font-weight:500;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .chip:hover{color:var(--ink);border-color:var(--accent);}
+  .legend{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:9px;
+    font-size:.7rem;
+    color:var(--ink-dim);
+  }
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .legend i{width:7px;height:7px;border-radius:50%;flex:none;background:var(--dot);}
+  .no-results{
+    display:none;
+    padding:32px 0;
+    text-align:center;
+    color:var(--ink-dim);
+    font-size:.9rem;
+  }
+
+  /* ---------- categories ---------- */
+  main{padding:14px 0 8px;}
+  .cat{
+    border:1px solid var(--line);
+    border-radius:14px;
+    background:var(--surface);
+    margin-bottom:10px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+    scroll-margin-top:118px;
+  }
+  .cat-head{
+    all:unset;
+    box-sizing:border-box;
+    display:flex;
+    width:100%;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:12px;
+    padding:14px 14px 13px;
+    cursor:pointer;
+  }
+  .cat-head:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;}
+  .cat-title-block{min-width:0;}
+  .cat-name{
+    font-family:"Instrument Serif", Georgia, serif;
+    font-size:1.32rem;
+    line-height:1.1;
+    margin:0 0 3px;
+  }
+  .cat-desc{
+    margin:0;
+    color:var(--ink-dim);
+    font-size:.8rem;
+    line-height:1.35;
+  }
+  .cat-count{
+    margin-top:7px;
+    display:inline-block;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.68rem;
+    letter-spacing:.05em;
+    color:var(--accent);
+  }
+  .cat-meta{
+    flex:none;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .spec{
+    text-align:right;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    line-height:1.5;
+  }
+  .spec .unit{
+    font-size:1.05rem;
+    font-weight:600;
+    font-variant-numeric:tabular-nums;
+  }
+  .spec .case{
+    font-size:.66rem;
+    color:var(--ink-dim);
+    letter-spacing:.02em;
+  }
+  .chevron{
+    flex:none;
+    width:18px;height:18px;
+    color:var(--ink-dim);
+    transition:transform .2s ease;
+  }
+  .cat[data-open="true"] .chevron{transform:rotate(180deg);}
+
+  .cat-body{
+    display:grid;
+    grid-template-rows:0fr;
+    transition:grid-template-rows .22s ease;
+  }
+  .cat[data-open="true"] .cat-body{grid-template-rows:1fr;}
+  .cat-body-inner{overflow:hidden;}
+  .strain-list{
+    padding:0 14px 6px;
+    border-top:1px solid var(--line);
+  }
+  .strain-row{
+    display:grid;
+    grid-template-columns:1fr auto auto;
+    align-items:center;
+    column-gap:.55rem;
+    padding:.6rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .strain-row:last-child{border-bottom:none;}
+  .strain-name{
+    font-weight:500;
+    font-size:.9rem;
+    min-width:0;
+    overflow-wrap:break-word;
+    display:flex;
+    align-items:baseline;
+    gap:7px;
+  }
+  .strain-name .dot{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    flex:none;
+    background:var(--dot);
+    transform:translateY(-1px);
+  }
+  .badge{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.64rem;
+    font-weight:600;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    padding:3px 7px;
+    border-radius:999px;
+    white-space:nowrap;
+    background:color-mix(in srgb, var(--badge-color) 16%, transparent);
+    color:var(--badge-color);
+  }
+  .thc{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-variant-numeric:tabular-nums;
+    font-size:.86rem;
+    min-width:3.6ch;
+    text-align:right;
+  }
+  .genetics{
+    grid-column:1 / -1;
+    margin-top:2px;
+    font-size:.76rem;
+    font-style:italic;
+    color:var(--ink-dim);
+  }
+  .genetics .tag{
+    font-style:normal;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.62rem;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--accent);
+    border:1px solid var(--accent);
+    border-radius:5px;
+    padding:1px 5px;
+    margin-right:6px;
+  }
+  .batches{
+    grid-column:1 / -1;
+    margin-top:4px;
+  }
+  .batches summary{
+    cursor:pointer;
+    list-style:none;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.7rem;
+    letter-spacing:.02em;
+    color:var(--accent);
+  }
+  .batches summary::-webkit-details-marker{display:none;}
+  .batches summary::before{
+    content:"▸";
+    font-size:.6rem;
+    display:inline-block;
+    transition:transform .15s ease;
+  }
+  .batches[open] summary::before{transform:rotate(90deg);}
+  .batch-rows{
+    margin:7px 0 2px;
+    padding:8px 10px;
+    border-radius:9px;
+    background:var(--surface-2);
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+  }
+  .batch-row{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:.72rem;
+    font-variant-numeric:tabular-nums;
+    color:var(--ink-dim);
+  }
+  .batch-row b{color:var(--ink);font-weight:600;}
+
+  footer{
+    padding:22px 0 40px;
+    color:var(--ink-dim);
+    font-size:.78rem;
+    line-height:1.55;
+  }
+  footer strong{color:var(--ink);}
+
+  @media (min-width:560px){
+    .wordmark{font-size:3.1rem;}
+  }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Claybourne Co. &middot; New York</p>
+    <h1 class="wordmark">Wholesale Menu</h1>
+    <p class="hero-sub">Current case pricing, genetics, and stock status for licensed New York retailers. Tap a category to see strains, potency, and lineage.</p>
+    <div class="resource-row">
+      <a class="resource-link" href="https://drive.google.com/drive/folders/1nnadC335hA9Kjb0QQV6skgL7VoNRe9-P?usp=sharing" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+        Videos &amp; lifestyle images
+      </a>
+      <a class="resource-link" href="https://www.instagram.com/claybournecompany/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        Instagram
+      </a>
+      <a class="resource-link" href="https://www.youtube.com/channel/UCyRdDYueVyf2XNSqCWAqn4A" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+        YouTube
+      </a>
+    </div>
+    <p class="compliance">Licensed NY wholesale accounts only &middot; 21+ &middot; pricing subject to change without notice</p>
+    <p class="compliance">THC% may vary batch to batch — the figure shown is the lowest result among current batches. Contact your sales rep for the exact THC% of the batch you'll receive.</p>
+  </header>
+
+  <div class="controls">
+    <div class="search-row">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input id="search" type="search" placeholder="Search strain or product…" autocomplete="off">
+      </div>
+      <button class="toggle-all" id="toggleAll" type="button">Expand all</button>
+    </div>
+    <div class="chip-row" id="chipRow"></div>
+    <div class="legend">
+      <span><i style="--dot:var(--stock-in)"></i>In stock</span>
+      <span><i style="--dot:var(--stock-low)"></i>Low stock (&lt;100)</span>
+      <span>No dot — not yet tracked</span>
+      <span>Sold-out items (&lt;30 units) are hidden</span>
+    </div>
+  </div>
+
+  <main id="catList"></main>
+  <p class="no-results" id="noResults">No strains match “<span id="noResultsTerm"></span>.”</p>
+
+  <footer>
+    <strong>Claybourne Co.</strong> — last refreshed September 3, 2026 at 5:15 PM PT from the Vireo wholesale inventory feed. THC% is the lowest lab result across current batches; quantities are batches combined. Strains under 30 units are treated as sold out and left off this menu. Reach your sales rep for drops and case-order minimums.
+  </footer>
+</div>
+
+<script>
+(function(){
+  var TYPE_COLOR = {
+    "Hybrid":"var(--hybrid)",
+    "Hybrid - Indica Dom":"var(--hybrid-id)",
+    "Indica":"var(--indica)",
+    "Sativa":"var(--sativa)"
+  };
+  var TYPE_LABEL = {
+    "Hybrid":"Hybrid",
+    "Hybrid - Indica Dom":"Hybrid/Ind",
+    "Indica":"Indica",
+    "Sativa":"Sativa"
+  };
+
+  // qty: units available, consolidated across Vireo batches (summed) with the lowest THC% of those
+  // batches published. null = SKU not in the live inventory feed; 0 = fed shows no available batches (sold out).
+  var DATA = [
+    {
+      id:"gassers-vape",
+      name:"Gassers 1g AIO Vape",
+      desc:"100% uncut liquid diamonds + terpenes",
+      unit:"$30", caseSize:"10", caseCost:"$300",
+      strains:[
+        {n:"Lemon Lime Kush", t:"Hybrid", thc:"83.3", qty:469},
+        {n:"Mango Machine", t:"Sativa", thc:"87.4", qty:489},
+        {n:"Pineapple Express", t:"Hybrid", thc:"84.1", qty:554},
+        {n:"Lemon Cherry Gelato", t:"Hybrid", thc:"81.5", qty:446},
+        {n:"Wedding Cake", t:"Hybrid", thc:"92.3", qty:72},
+        {n:"Banana OG", t:"Indica", thc:"82.3", qty:451},
+        {n:"Black Triangle OG", t:"Indica", thc:"87.8", qty:328},
+        {n:"Grape Gasolina", t:"Indica", thc:"84.3", qty:67},
+        {n:"King Louis OG", t:"Indica", thc:"85.6", qty:572},
+        {n:"Watermelon Z", t:"Hybrid", thc:"84.3", qty:545},
+        {n:"Blue Dream", t:"Sativa", thc:"83.7", qty:99},
+        {n:"Durban Poison", t:"Sativa", thc:"86.2", qty:276},
+        {n:"Peach Pie", t:"Sativa", thc:"89.0", qty:407},
+        {n:"Strawberry Cough", t:"Sativa", thc:"84.3", qty:249},
+        {n:"Super Sour Apple", t:"Sativa", thc:"88.10", qty:0}
+      ]
+    },
+    {
+      id:"flyers-blends",
+      name:"Flyers Blends 3.5g",
+      desc:"7-pack &middot; 7 &times; .5g full-flower pre-rolls",
+      unit:"$20", caseSize:"32", caseCost:"$640",
+      strains:[
+        {n:"Bake Sale", t:"Hybrid", thc:"23.2", qty:2253},
+        {n:"Face Melter", t:"Hybrid", thc:"23.6", qty:1292},
+        {n:"Fast Lane", t:"Sativa", thc:"22.00", qty:0}
+      ]
+    },
+    {
+      id:"flyers-blunt",
+      name:"Flyers Infused Blunt 1.5g",
+      desc:"Flower + THCa diamonds, liquid diamonds, terpenes, herbal-blend wrap",
+      unit:"$18", caseSize:"10", caseCost:"$180",
+      strains:[
+        {n:"Lemon Lime Kush", t:"Hybrid", thc:"59.1", qty:834},
+        {n:"Mango Machine", t:"Sativa", thc:"41.2", qty:1122},
+        {n:"Pineapple Express", t:"Hybrid", thc:"55.5", qty:608},
+        {n:"Lemon Cherry Gelato", t:"Hybrid", thc:"44.1", qty:1201},
+        {n:"Wedding Cake", t:"Hybrid - Indica Dom", thc:"44.70", qty:0},
+        {n:"Banana OG", t:"Indica", thc:"43.8", qty:1216},
+        {n:"Black Triangle OG", t:"Indica", thc:"47.1", qty:912},
+        {n:"Grape Gasolina", t:"Indica", thc:"46.7", qty:845},
+        {n:"King Louis OG", t:"Indica", thc:"47.6", qty:908},
+        {n:"Watermelon Z", t:"Hybrid", thc:"53.0", qty:907},
+        {n:"Blue Dream", t:"Sativa", thc:"36.9", qty:275},
+        {n:"Durban Poison", t:"Sativa", thc:"50.2", qty:835},
+        {n:"Peach Pie", t:"Sativa", thc:"44.8", qty:1233},
+        {n:"Strawberry Cough", t:"Sativa", thc:"44.3", qty:1039},
+        {n:"Super Sour Apple", t:"Sativa", thc:"45.01", qty:0}
+      ]
+    },
+    {
+      id:"frosted-flyers",
+      name:"Frosted Flyers Pre-Rolls 2.5g",
+      desc:"5-pack &middot; flower + THCa diamonds outside, terpene enhanced",
+      unit:"$25", caseSize:"32", caseCost:"$800",
+      strains:[
+        {n:"Lemon Lime Kush", t:"Hybrid", thc:"35.8", qty:1200},
+        {n:"Mango Machine", t:"Sativa", thc:"39.2", qty:830},
+        {n:"Pineapple Express", t:"Hybrid", thc:"36.2", qty:54},
+        {n:"Lemon Cherry Gelato", t:"Hybrid", thc:"34.7", qty:378},
+        {n:"Wedding Cake", t:"Hybrid", thc:"39.3", qty:55},
+        {n:"Banana OG", t:"Indica", thc:"39.9", qty:833},
+        {n:"Black Triangle OG", t:"Indica", thc:"36.7", qty:743},
+        {n:"Grape Gasolina", t:"Indica", thc:"40.9", qty:113},
+        {n:"King Louis OG", t:"Indica", thc:"33.3", qty:261},
+        {n:"Watermelon Z", t:"Hybrid", thc:"35.7", qty:418},
+        {n:"Durban Poison", t:"Sativa", thc:"37.18", qty:0},
+        {n:"Peach Pie", t:"Sativa", thc:"33.4", qty:788},
+        {n:"Strawberry Cough", t:"Sativa", thc:"39.3", qty:751},
+        {n:"Super Sour Apple", t:"Hybrid", thc:"44.3", qty:505},
+        {n:"Blue Dream", t:"Sativa", thc:"36.5", qty:722}
+      ]
+    },
+    {
+      id:"gold-cuts-diamond",
+      name:"Gold Cuts Diamond Infused Pre-Rolls 2.5g",
+      desc:"5-pack &middot; flower + THCa diamonds inside",
+      unit:"$25", caseSize:"32", caseCost:"$800",
+      strains:[
+        {n:"Gas Plant", t:"Indica", thc:"53.45", gen:"Claybourne In-House", qty:0},
+        {n:"Lemon Drop Top", t:"Sativa", thc:"54.9", gen:"Claybourne In-House", qty:212},
+        {n:"Cobra Kush", t:"Hybrid", thc:"48.8", gen:"Claybourne In-House", qty:890},
+        {n:"Paradise Pomelo", t:"Sativa", thc:"58.8", qty:766}
+      ]
+    },
+    {
+      id:"gold-cuts-35",
+      name:"Gold Cuts 3.5g",
+      desc:"Ultra-premium indoor &middot; exclusive genetics",
+      unit:"$30", caseSize:"32", caseCost:"$960",
+      strains:[
+        {n:"Gas Plant", t:"Indica", thc:"32.44", gen:"Claybourne In-House", qty:0},
+        {n:"Cobra Kush", t:"Hybrid", thc:"31.0", gen:"Claybourne In-House", qty:2769},
+        {n:"Lemon Drop Top", t:"Sativa", thc:"37.3", gen:"Claybourne In-House", qty:1306},
+        {n:"Paradise Pomelo", t:"Sativa", thc:"28.8", qty:728}
+      ]
+    },
+    {
+      id:"premium-small-buds",
+      name:"Premium Small Buds 14g",
+      desc:"Premium indoor flower &middot; traditional varieties",
+      unit:"$75", caseSize:"32", caseCost:"$2400",
+      strains:[
+        {n:"Kush Cake", t:"Hybrid", thc:"34.3", gen:"Wedding Cake x Kush Mints", qty:77},
+        {n:"Durban Poison", t:"Sativa", thc:"22.3", gen:"African Landrace Strain", qty:144}
+      ]
+    },
+    {
+      id:"classic-cuts",
+      name:"Classic Cuts 3.5g",
+      desc:"Premium indoor flower &middot; traditional varieties",
+      unit:"$25", caseSize:"32", caseCost:"$800",
+      strains:[
+        {n:"Pineapple Express", t:"Hybrid", thc:"21.22", gen:"Trainwreck x Hawaiian", qty:0},
+        {n:"Lemon Cherry Gelato", t:"Hybrid", thc:"24.2", gen:"Sunset Sherbet x GSC", qty:21},
+        {n:"Purple Chem", t:"Hybrid", thc:"29.8", gen:"Chem 91 x Pre-98 Bubba Kush", qty:259},
+        {n:"King Louis OG", t:"Indica", thc:"34.68", gen:"OG Kush x LA Confidential", qty:0},
+        {n:"Mule Fuel", t:"Indica", thc:"32.48", gen:"GMO x Lurch", qty:0},
+        {n:"Durban Poison", t:"Sativa", thc:"25.3", gen:"African Landrace Strain", qty:2038},
+        {n:"Super Silver Haze", t:"Hybrid", thc:"22.3", gen:"Skunk x Northern Lights x Haze", qty:1168}
+      ]
+    }
+  ];
+
+  // Per-batch detail (THC%, units, expiration) behind each strain's consolidated row, keyed "catId||Strain".
+  var BATCHES = {"gassers-vape||Lemon Lime Kush":[{"thc":"83.3","qty":449},{"thc":"89.6","qty":10},{"thc":"89.6","qty":10}],"gassers-vape||Mango Machine":[{"thc":"87.4","qty":481},{"thc":"90.2","qty":8}],"gassers-vape||Pineapple Express":[{"thc":"86.3","qty":372},{"thc":"84.1","qty":152},{"thc":"84.1","qty":10},{"thc":"84.1","qty":10},{"thc":"90.6","qty":10}],"gassers-vape||Lemon Cherry Gelato":[{"thc":"81.5","qty":446}],"gassers-vape||Wedding Cake":[{"thc":"92.3","qty":72}],"gassers-vape||Banana OG":[{"thc":"82.3","qty":428},{"thc":"90.2","qty":13},{"thc":"90.2","qty":10}],"gassers-vape||Black Triangle OG":[{"thc":"87.8","qty":328}],"gassers-vape||Grape Gasolina":[{"thc":"84.3","qty":49},{"thc":"84.3","qty":9},{"thc":"84.3","qty":9}],"gassers-vape||King Louis OG":[{"thc":"87.1","qty":415},{"thc":"85.6","qty":137},{"thc":"85.6","qty":10},{"thc":"85.6","qty":10}],"gassers-vape||Watermelon Z":[{"thc":"84.3","qty":378},{"thc":"89.2","qty":149},{"thc":"89.2","qty":18}],"gassers-vape||Blue Dream":[{"thc":"91.0","qty":77},{"thc":"83.7","qty":8},{"thc":"83.7","qty":8},{"thc":"83.7","qty":6}],"gassers-vape||Durban Poison":[{"thc":"90.9","qty":256},{"thc":"86.2","qty":10},{"thc":"86.2","qty":10}],"gassers-vape||Peach Pie":[{"thc":"89.0","qty":407}],"gassers-vape||Strawberry Cough":[{"thc":"84.3","qty":249}],"flyers-blends||Bake Sale":[{"thc":"30.1","qty":2233},{"thc":"23.2","qty":20}],"flyers-blends||Face Melter":[{"thc":"26.0","qty":1273},{"thc":"23.6","qty":19}],"flyers-blunt||Lemon Lime Kush":[{"thc":"59.1","qty":834}],"flyers-blunt||Mango Machine":[{"thc":"41.2","qty":962},{"thc":"44.2","qty":140},{"thc":"44.2","qty":10},{"thc":"51.1","qty":10}],"flyers-blunt||Pineapple Express":[{"thc":"55.5","qty":598},{"thc":"55.5","qty":10}],"flyers-blunt||Lemon Cherry Gelato":[{"thc":"46.5","qty":987},{"thc":"44.1","qty":204},{"thc":"44.1","qty":10}],"flyers-blunt||Banana OG":[{"thc":"53.6","qty":959},{"thc":"43.8","qty":257}],"flyers-blunt||Black Triangle OG":[{"thc":"54.7","qty":821},{"thc":"47.1","qty":70},{"thc":"47.1","qty":12},{"thc":"47.1","qty":9}],"flyers-blunt||Grape Gasolina":[{"thc":"52.3","qty":806},{"thc":"46.7","qty":19},{"thc":"46.7","qty":10},{"thc":"52.3","qty":10}],"flyers-blunt||King Louis OG":[{"thc":"47.6","qty":543},{"thc":"49.8","qty":365}],"flyers-blunt||Watermelon Z":[{"thc":"53.0","qty":907}],"flyers-blunt||Blue Dream":[{"thc":"45.4","qty":219},{"thc":"36.9","qty":29},{"thc":"43.1","qty":9},{"thc":"45.4","qty":9},{"thc":"45.4","qty":9}],"flyers-blunt||Durban Poison":[{"thc":"50.2","qty":835}],"flyers-blunt||Peach Pie":[{"thc":"52.9","qty":909},{"thc":"44.8","qty":324}],"flyers-blunt||Strawberry Cough":[{"thc":"54.0","qty":947},{"thc":"44.3","qty":92}],"frosted-flyers||Lemon Lime Kush":[{"thc":"35.8","qty":667},{"thc":"44.8","qty":511},{"thc":"35.8","qty":22}],"frosted-flyers||Mango Machine":[{"thc":"42.4","qty":422},{"thc":"39.2","qty":398},{"thc":"39.2","qty":10}],"frosted-flyers||Pineapple Express":[{"thc":"36.2","qty":30},{"thc":"36.2","qty":8},{"thc":"36.2","qty":8},{"thc":"37.7","qty":8}],"frosted-flyers||Lemon Cherry Gelato":[{"thc":"41.5","qty":368},{"thc":"34.7","qty":10}],"frosted-flyers||Wedding Cake":[{"thc":"39.3","qty":55}],"frosted-flyers||Banana OG":[{"thc":"41.4","qty":465},{"thc":"39.9","qty":346},{"thc":"39.9","qty":22}],"frosted-flyers||Black Triangle OG":[{"thc":"41.0","qty":441},{"thc":"36.7","qty":272},{"thc":"36.7","qty":21},{"thc":"36.7","qty":9}],"frosted-flyers||Grape Gasolina":[{"thc":"40.9","qty":113}],"frosted-flyers||King Louis OG":[{"thc":"33.3","qty":241},{"thc":"37.0","qty":10},{"thc":"37.0","qty":10}],"frosted-flyers||Watermelon Z":[{"thc":"35.7","qty":398},{"thc":"35.7","qty":10},{"thc":"38.6","qty":10}],"frosted-flyers||Peach Pie":[{"thc":"38.8","qty":466},{"thc":"33.4","qty":322}],"frosted-flyers||Strawberry Cough":[{"thc":"39.3","qty":491},{"thc":"40.7","qty":208},{"thc":"40.7","qty":22},{"thc":"40.7","qty":10},{"thc":"40.7","qty":10},{"thc":"40.7","qty":10}],"frosted-flyers||Super Sour Apple":[{"thc":"44.6","qty":415},{"thc":"44.3","qty":59},{"thc":"44.3","qty":21},{"thc":"44.3","qty":10}],"frosted-flyers||Blue Dream":[{"thc":"36.5","qty":712},{"thc":"36.5","qty":10}],"gold-cuts-diamond||Lemon Drop Top":[{"thc":"54.9","qty":212}],"gold-cuts-diamond||Cobra Kush":[{"thc":"48.8","qty":890}],"gold-cuts-diamond||Paradise Pomelo":[{"thc":"58.8","qty":766}],"gold-cuts-35||Cobra Kush":[{"thc":"32.2","qty":1706},{"thc":"31.0","qty":1063}],"gold-cuts-35||Lemon Drop Top":[{"thc":"37.3","qty":1306}],"gold-cuts-35||Paradise Pomelo":[{"thc":"28.8","qty":728}],"premium-small-buds||Kush Cake":[{"thc":"34.3","qty":77}],"premium-small-buds||Durban Poison":[{"thc":"22.3","qty":144}],"classic-cuts||Lemon Cherry Gelato":[{"thc":"24.2","qty":12},{"thc":"24.2","qty":9}],"classic-cuts||Purple Chem":[{"thc":"32.1","qty":231},{"thc":"29.8","qty":10},{"thc":"32.1","qty":10},{"thc":"29.8","qty":8}],"classic-cuts||Durban Poison":[{"thc":"26.2","qty":1976},{"thc":"26.2","qty":31},{"thc":"26.2","qty":16},{"thc":"25.3","qty":15}],"classic-cuts||Super Silver Haze":[{"thc":"30.8","qty":1096},{"thc":"22.3","qty":32},{"thc":"22.3","qty":16},{"thc":"29.3","qty":16},{"thc":"29.3","qty":8}]};
+
+  // Anything under 30 units is treated as sold out and dropped from the published menu entirely.
+  var SOLD_OUT_FLOOR = 30;
+  function stockStatus(qty){
+    if (qty === null || qty === undefined) return null;
+    if (qty < SOLD_OUT_FLOOR) return "out";
+    if (qty < 100) return "low";
+    return "in";
+  }
+  var STOCK_LABEL = {in:"In stock", low:"Low stock", out:"Sold out"};
+  var STOCK_VAR = {in:"var(--stock-in)", low:"var(--stock-low)"};
+
+  var catList = document.getElementById("catList");
+  var chipRow = document.getElementById("chipRow");
+  var frag = document.createDocumentFragment();
+  var chipFrag = document.createDocumentFragment();
+  var renderedIdx = 0;
+
+  DATA.forEach(function(cat){
+    var visibleStrains = cat.strains.filter(function(s){ return stockStatus(s.qty) !== "out"; });
+    if (visibleStrains.length === 0) return; // whole line sold out — drop the card
+
+    var idx = renderedIdx++;
+    var article = document.createElement("article");
+    article.className = "cat";
+    article.id = cat.id;
+    article.dataset.open = idx === 0 ? "true" : "false";
+
+    var strainRows = visibleStrains.map(function(s){
+      var name = s.n, type = s.t, thc = s.thc, genetics = s.gen;
+      var color = TYPE_COLOR[type] || "var(--ink-dim)";
+      var status = stockStatus(s.qty);
+      var dotHtml = status ? '<i class="dot" style="--dot:' + STOCK_VAR[status] + '" title="' + STOCK_LABEL[status] + '"></i>' : "";
+      var geneticsHtml = "";
+      if (genetics) {
+        var isInHouse = genetics === "Claybourne In-House";
+        geneticsHtml = '<div class="genetics">' +
+          (isInHouse ? '<span class="tag">In-House</span>' : '<span class="tag" style="color:var(--ink-dim);border-color:var(--line);">Lineage</span>') +
+          genetics + '</div>';
+      }
+      var batchList = BATCHES[cat.id + "||" + name] || [];
+      var batchesHtml = "";
+      if (batchList.length) {
+        var batchRows = batchList.map(function(b){
+          return '<div class="batch-row"><span>' + b.thc + '% THC</span><span><b>' + b.qty.toLocaleString() + '</b> units</span></div>';
+        }).join("");
+        batchesHtml = '<details class="batches"><summary>' + batchList.length + ' batch' + (batchList.length === 1 ? '' : 'es') + '</summary><div class="batch-rows">' + batchRows + '</div></details>';
+      }
+      return '<div class="strain-row" data-name="' + name.toLowerCase() + '" data-stock="' + (status || "") + '">' +
+        '<span class="strain-name">' + dotHtml + '<span>' + name + '</span></span>' +
+        '<span class="badge" style="--badge-color:' + color + '" title="' + type + '">' + (TYPE_LABEL[type] || type) + '</span>' +
+        '<span class="thc">' + thc + '%</span>' +
+        geneticsHtml +
+        batchesHtml +
+        '</div>';
+    }).join("");
+
+    article.innerHTML =
+      '<button class="cat-head" type="button" aria-expanded="' + (idx === 0) + '">' +
+        '<div class="cat-title-block">' +
+          '<h2 class="cat-name">' + cat.name + '</h2>' +
+          '<p class="cat-desc">' + cat.desc + '</p>' +
+          '<span class="cat-count">' + visibleStrains.length + ' STRAIN' + (visibleStrains.length === 1 ? '' : 'S') + '</span>' +
+        '</div>' +
+        '<div class="cat-meta">' +
+          '<div class="spec"><div class="unit">' + cat.unit + '</div><div class="case">CASE ' + cat.caseSize + ' &middot; ' + cat.caseCost + '</div></div>' +
+          '<svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' +
+        '</div>' +
+      '</button>' +
+      '<div class="cat-body"><div class="cat-body-inner"><div class="strain-list">' + strainRows + '</div></div></div>';
+
+    frag.appendChild(article);
+
+    var chip = document.createElement("button");
+    chip.className = "chip";
+    chip.type = "button";
+    chip.textContent = cat.name.replace(/\.5g|Pre-Rolls|Pre-Roll/g, "").trim();
+    chip.addEventListener("click", function(){
+      article.dataset.open = "true";
+      article.querySelector(".cat-head").setAttribute("aria-expanded", "true");
+      article.scrollIntoView({behavior:"smooth", block:"start"});
+    });
+    chipFrag.appendChild(chip);
+  });
+
+  catList.appendChild(frag);
+  chipRow.appendChild(chipFrag);
+
+  catList.addEventListener("click", function(e){
+    var head = e.target.closest(".cat-head");
+    if (!head) return;
+    var article = head.closest(".cat");
+    var open = article.dataset.open === "true";
+    article.dataset.open = open ? "false" : "true";
+    head.setAttribute("aria-expanded", String(!open));
+  });
+
+  var toggleAllBtn = document.getElementById("toggleAll");
+  var allOpen = false;
+  toggleAllBtn.addEventListener("click", function(){
+    allOpen = !allOpen;
+    document.querySelectorAll(".cat").forEach(function(article){
+      article.dataset.open = allOpen ? "true" : "false";
+      article.querySelector(".cat-head").setAttribute("aria-expanded", String(allOpen));
+    });
+    toggleAllBtn.textContent = allOpen ? "Collapse all" : "Expand all";
+  });
+
+  var searchInput = document.getElementById("search");
+  var noResults = document.getElementById("noResults");
+  var noResultsTerm = document.getElementById("noResultsTerm");
+
+  searchInput.addEventListener("input", function(){
+    var term = searchInput.value.trim().toLowerCase();
+    var anyVisible = false;
+
+    document.querySelectorAll(".cat").forEach(function(article){
+      var rows = article.querySelectorAll(".strain-row");
+      var catMatches = article.querySelector(".cat-name").textContent.toLowerCase().indexOf(term) !== -1;
+      var visibleRows = 0;
+
+      rows.forEach(function(row){
+        var match = term === "" || catMatches || row.dataset.name.indexOf(term) !== -1;
+        row.style.display = match ? "" : "none";
+        if (match) visibleRows++;
+      });
+
+      var show = term === "" || visibleRows > 0;
+      article.style.display = show ? "" : "none";
+      if (show) anyVisible = true;
+
+      if (term !== "" && visibleRows > 0) {
+        article.dataset.open = "true";
+        article.querySelector(".cat-head").setAttribute("aria-expanded", "true");
+      } else if (term === "") {
+        var idx = Array.prototype.indexOf.call(article.parentNode.children, article);
+        article.dataset.open = idx === 0 ? "true" : "false";
+        article.querySelector(".cat-head").setAttribute("aria-expanded", idx === 0 ? "true" : "false");
+      }
+    });
+
+    noResultsTerm.textContent = searchInput.value.trim();
+    noResults.style.display = (term !== "" && !anyVisible) ? "block" : "none";
+  });
+})();
+</script>
