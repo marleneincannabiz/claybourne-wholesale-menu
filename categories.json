@@ -187,25 +187,25 @@
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "47.1",
-     "qty": 858
+     "qty": 847
     },
     {
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 754
+     "qty": 743
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 860
+     "qty": 850
     },
     {
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "53.0",
-     "qty": 865
+     "qty": 855
     },
     {
      "n": "Blue Dream",
@@ -217,19 +217,19 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "50.2",
-     "qty": 702
+     "qty": 692
     },
     {
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "44.8",
-     "qty": 1197
+     "qty": 1187
     },
     {
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "44.3",
-     "qty": 975
+     "qty": 965
     },
     {
      "n": "Super Sour Apple",
@@ -281,7 +281,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "39.9",
-     "qty": 798
+     "qty": 789
     },
     {
      "n": "Black Triangle OG",
@@ -329,7 +329,7 @@
      "n": "Super Sour Apple",
      "t": "Hybrid",
      "thc": "44.3",
-     "qty": 422
+     "qty": 421
     },
     {
      "n": "Blue Dream",
@@ -359,20 +359,20 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "54.9",
-     "qty": 50
+     "qty": 40
     },
     {
      "n": "Cobra Kush",
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "48.8",
-     "qty": 759
+     "qty": 749
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "58.8",
-     "qty": 566
+     "qty": 556
     }
    ]
   },
