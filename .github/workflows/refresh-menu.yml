@@ -1,0 +1,58 @@
+name: Refresh Claybourne wholesale menu
+
+on:
+  schedule:
+    # Cron times are always UTC and GitHub does not adjust for daylight saving.
+    # This is 7am/10am/1pm/4pm/7pm ET while ET is UTC-4 (EDT, roughly mid-March
+    # to early November). When DST ends and ET becomes UTC-5 (EST), change each
+    # hour here by -1 to keep firing at the same clock time in New York:
+    #   EDT (now):        0 11,14,17,20,23 * * 1-5
+    #   EST (after Nov):  0 12,15,18,21,0  * * 1-5   (the 0 lands at 12am UTC the next day)
+    - cron: "0 11,14,17,20,23 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-menu
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run refresh
+        run: python refresh_menu.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html categories.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
+
+      - name: Upload debug artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: refresh-debug
+          path: download/
+          retention-days: 3
