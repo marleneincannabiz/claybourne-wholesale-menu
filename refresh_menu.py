@@ -52,11 +52,16 @@ def download_vireo_export() -> Path:
         log(f"navigating to {VIREO_URL}")
         page.goto(VIREO_URL, wait_until="domcontentloaded", timeout=60000)
         # Let the inventory table finish loading.
-        page.wait_for_selector("text=DOWNLOAD EXCEL", timeout=30000)
+        # NOTE: a plain "text=Download Excel" selector also matches a hidden
+        # instructions paragraph that mentions the button by name, so it's
+        # ambiguous (matches 2 elements) and can click the wrong one. Scope
+        # to the actual <button> element specifically.
+        download_button = page.get_by_role("button", name="Download Excel", exact=False)
+        download_button.wait_for(state="visible", timeout=30000)
         time.sleep(2)
 
         with page.expect_download(timeout=60000) as download_info:
-            page.click("text=DOWNLOAD EXCEL")
+            download_button.click()
         download = download_info.value
         dest = DOWNLOAD_DIR / "vireo_export.xlsx"
         download.save_as(str(dest))
