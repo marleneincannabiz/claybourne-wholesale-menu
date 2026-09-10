@@ -77,7 +77,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "84.3",
-     "qty": 514
+     "qty": 504
     },
     {
      "n": "Blue Dream",
@@ -89,7 +89,7 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.2",
-     "qty": 522
+     "qty": 511
     },
     {
      "n": "Peach Pie",
@@ -101,7 +101,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "84.3",
-     "qty": 199
+     "qty": 189
     },
     {
      "n": "Super Sour Apple",
@@ -123,13 +123,13 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "23.2",
-     "qty": 2008
+     "qty": 1988
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 1048
+     "qty": 1028
     },
     {
      "n": "Fast Lane",
@@ -157,7 +157,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 1084
+     "qty": 1075
     },
     {
      "n": "Pineapple Express",
@@ -193,7 +193,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 732
+     "qty": 731
     },
     {
      "n": "King Louis OG",
@@ -251,19 +251,19 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "35.8",
-     "qty": 1141
+     "qty": 1140
     },
     {
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "39.2",
-     "qty": 797
+     "qty": 787
     },
     {
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 10
+     "qty": 0
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -305,7 +305,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "35.7",
-     "qty": 392
+     "qty": 382
     },
     {
      "n": "Durban Poison",
@@ -317,13 +317,13 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "33.4",
-     "qty": 757
+     "qty": 747
     },
     {
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "39.3",
-     "qty": 750
+     "qty": 741
     },
     {
      "n": "Super Sour Apple",
@@ -359,20 +359,20 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "54.9",
-     "qty": 40
+     "qty": 30
     },
     {
      "n": "Cobra Kush",
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "48.8",
-     "qty": 749
+     "qty": 739
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "58.8",
-     "qty": 555
+     "qty": 545
     }
    ]
   },
@@ -403,13 +403,13 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "37.3",
-     "qty": 561
+     "qty": 544
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "28.8",
-     "qty": 312
+     "qty": 295
     }
    ]
   },
@@ -485,14 +485,14 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1684
+     "qty": 1670
     },
     {
      "n": "Super Silver Haze",
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "22.3",
-     "qty": 852
+     "qty": 835
     }
    ]
   }
