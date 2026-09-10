@@ -129,7 +129,7 @@
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 1049
+     "qty": 1048
     },
     {
      "n": "Fast Lane",
@@ -157,19 +157,19 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 1100
+     "qty": 1084
     },
     {
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "55.5",
-     "qty": 429
+     "qty": 424
     },
     {
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "44.1",
-     "qty": 1169
+     "qty": 1152
     },
     {
      "n": "Wedding Cake",
@@ -187,19 +187,19 @@
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "47.1",
-     "qty": 835
+     "qty": 829
     },
     {
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 737
+     "qty": 732
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 850
+     "qty": 834
     },
     {
      "n": "Watermelon Z",
@@ -229,7 +229,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "44.3",
-     "qty": 954
+     "qty": 948
     },
     {
      "n": "Super Sour Apple",
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 33
+     "qty": 10
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -323,7 +323,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "39.3",
-     "qty": 751
+     "qty": 750
     },
     {
      "n": "Super Sour Apple",
@@ -335,7 +335,7 @@
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "36.5",
-     "qty": 636
+     "qty": 635
     }
    ]
   },
@@ -372,7 +372,7 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "58.8",
-     "qty": 556
+     "qty": 555
     }
    ]
   },
@@ -396,20 +396,20 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 2545
+     "qty": 2512
     },
     {
      "n": "Lemon Drop Top",
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "37.3",
-     "qty": 627
+     "qty": 561
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "28.8",
-     "qty": 345
+     "qty": 312
     }
    ]
   },
