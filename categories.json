@@ -47,7 +47,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "92.3",
-     "qty": 42
+     "qty": 22
     },
     {
      "n": "Banana OG",
@@ -65,13 +65,13 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "82.2",
-     "qty": 1032
+     "qty": 1030
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "85.6",
-     "qty": 972
+     "qty": 970
     },
     {
      "n": "Watermelon Z",
@@ -83,13 +83,13 @@
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "82.8",
-     "qty": 868
+     "qty": 866
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.2",
-     "qty": 542
+     "qty": 531
     },
     {
      "n": "Peach Pie",
@@ -107,7 +107,7 @@
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "87.5",
-     "qty": 488
+     "qty": 477
     }
    ]
   },
@@ -123,13 +123,13 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "23.2",
-     "qty": 1963
+     "qty": 1948
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 1027
+     "qty": 1012
     },
     {
      "n": "Fast Lane",
@@ -151,7 +151,7 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "59.1",
-     "qty": 675
+     "qty": 663
     },
     {
      "n": "Mango Machine",
@@ -181,31 +181,31 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "43.8",
-     "qty": 1118
+     "qty": 1106
     },
     {
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "47.1",
-     "qty": 798
+     "qty": 789
     },
     {
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 707
+     "qty": 706
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 812
+     "qty": 800
     },
     {
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "53.0",
-     "qty": 844
+     "qty": 832
     },
     {
      "n": "Blue Dream",
@@ -223,7 +223,7 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "44.8",
-     "qty": 1162
+     "qty": 1150
     },
     {
      "n": "Strawberry Cough",
@@ -251,7 +251,7 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "35.8",
-     "qty": 1134
+     "qty": 1122
     },
     {
      "n": "Mango Machine",
@@ -269,7 +269,7 @@
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "34.7",
-     "qty": 292
+     "qty": 270
     },
     {
      "n": "Wedding Cake",
@@ -287,7 +287,7 @@
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "36.7",
-     "qty": 646
+     "qty": 647
     },
     {
      "n": "Grape Gasolina",
@@ -299,13 +299,13 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "33.3",
-     "qty": 244
+     "qty": 233
     },
     {
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "35.7",
-     "qty": 376
+     "qty": 365
     },
     {
      "n": "Durban Poison",
@@ -323,7 +323,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "39.3",
-     "qty": 740
+     "qty": 727
     },
     {
      "n": "Super Sour Apple",
@@ -359,20 +359,20 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "54.9",
-     "qty": 29
+     "qty": 16
     },
     {
      "n": "Cobra Kush",
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "48.8",
-     "qty": 738
+     "qty": 724
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "58.8",
-     "qty": 544
+     "qty": 531
     }
    ]
   },
@@ -396,14 +396,14 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 2381
+     "qty": 2364
     },
     {
      "n": "Lemon Drop Top",
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "37.3",
-     "qty": 413
+     "qty": 396
     },
     {
      "n": "Paradise Pomelo",
@@ -485,14 +485,14 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1617
+     "qty": 1601
     },
     {
      "n": "Super Silver Haze",
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "22.3",
-     "qty": 769
+     "qty": 752
     }
    ]
   }
