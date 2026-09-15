@@ -396,20 +396,20 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 2281
+     "qty": 2248
     },
     {
      "n": "Lemon Drop Top",
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "37.3",
-     "qty": 102
+     "qty": 115
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "28.8",
-     "qty": 62
+     "qty": 28
     }
    ]
   },
@@ -485,7 +485,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1428
+     "qty": 1427
     },
     {
      "n": "Super Silver Haze",
