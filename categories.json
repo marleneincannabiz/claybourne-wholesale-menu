@@ -35,7 +35,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "84.1",
-     "qty": 458
+     "qty": 456
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -89,7 +89,7 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.2",
-     "qty": 470
+     "qty": 471
     },
     {
      "n": "Peach Pie",
@@ -396,20 +396,20 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 2248
+     "qty": 2182
     },
     {
      "n": "Lemon Drop Top",
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "37.3",
-     "qty": 115
+     "qty": 76
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "28.8",
-     "qty": 28
+     "qty": 0
     }
    ]
   },
@@ -426,14 +426,14 @@
      "t": "Hybrid",
      "gen": "Wedding Cake x Kush Mints",
      "thc": "34.3",
-     "qty": 17
+     "qty": 0
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "22.3",
-     "qty": 93
+     "qty": 92
     }
    ]
   },
