@@ -193,7 +193,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 640
+     "qty": 639
     },
     {
      "n": "King Louis OG",
@@ -403,7 +403,7 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "37.3",
-     "qty": 76
+     "qty": 82
     },
     {
      "n": "Paradise Pomelo",
@@ -426,14 +426,14 @@
      "t": "Hybrid",
      "gen": "Wedding Cake x Kush Mints",
      "thc": "34.3",
-     "qty": 0
+     "qty": 7
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "22.3",
-     "qty": 92
+     "qty": 93
     }
    ]
   },
@@ -485,7 +485,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1427
+     "qty": 1428
     },
     {
      "n": "Super Silver Haze",
