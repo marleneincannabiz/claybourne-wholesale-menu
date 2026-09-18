@@ -77,7 +77,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "84.3",
-     "qty": 454
+     "qty": 453
     },
     {
      "n": "Blue Dream",
@@ -134,8 +134,8 @@
     {
      "n": "Fast Lane",
      "t": "Sativa",
-     "thc": "22.00",
-     "qty": 0
+     "thc": "26.3",
+     "qty": 1878
     }
    ]
   },
@@ -181,7 +181,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "43.8",
-     "qty": 1000
+     "qty": 1006
     },
     {
      "n": "Black Triangle OG",
@@ -193,7 +193,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 584
+     "qty": 590
     },
     {
      "n": "King Louis OG",
@@ -217,13 +217,13 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "50.2",
-     "qty": 491
+     "qty": 497
     },
     {
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "44.8",
-     "qty": 983
+     "qty": 982
     },
     {
      "n": "Strawberry Cough",
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 441
+     "qty": 440
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -396,7 +396,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 2001
+     "qty": 2002
     },
     {
      "n": "Lemon Drop Top",
@@ -433,7 +433,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "22.3",
-     "qty": 76
+     "qty": 791
     }
    ]
   },
@@ -485,7 +485,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1261
+     "qty": 1259
     },
     {
      "n": "Super Silver Haze",
