@@ -175,7 +175,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid - Indica Dom",
      "thc": "44.6",
-     "qty": 682
+     "qty": 671
     },
     {
      "n": "Banana OG",
@@ -187,7 +187,7 @@
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "47.1",
-     "qty": 571
+     "qty": 572
     },
     {
      "n": "Grape Gasolina",
@@ -366,7 +366,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "48.8",
-     "qty": 410
+     "qty": 400
     },
     {
      "n": "Paradise Pomelo",
@@ -396,7 +396,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 1772
+     "qty": 1724
     },
     {
      "n": "Lemon Drop Top",
@@ -408,8 +408,8 @@
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
-     "thc": "28.8",
-     "qty": 0
+     "thc": "24.2",
+     "qty": 1404
     }
    ]
   },
@@ -439,7 +439,7 @@
      "n": "Purple Chem",
      "t": "Hybrid",
      "thc": "31.4",
-     "qty": 430
+     "qty": 421
     }
    ]
   },
@@ -469,15 +469,15 @@
      "n": "Purple Chem",
      "t": "Hybrid",
      "gen": "Chem 91 x Pre-98 Bubba Kush",
-     "thc": "32.1",
-     "qty": 8
+     "thc": "31.6",
+     "qty": 3423
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "gen": "OG Kush x LA Confidential",
-     "thc": "34.68",
-     "qty": 0
+     "thc": "27.7",
+     "qty": 307
     },
     {
      "n": "Mule Fuel",
@@ -491,20 +491,26 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1095
+     "qty": 1048
     },
     {
      "n": "Super Silver Haze",
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "30.8",
-     "qty": 111
+     "qty": 77
     },
     {
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "31.5",
      "qty": 15
+    },
+    {
+     "n": "Wedding Cake",
+     "t": "Hybrid",
+     "thc": "27.9",
+     "qty": 1661
     }
    ]
   }
