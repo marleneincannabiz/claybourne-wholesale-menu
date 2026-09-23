@@ -53,7 +53,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "82.3",
-     "qty": 332
+     "qty": 334
     },
     {
      "n": "Black Triangle OG",
@@ -77,7 +77,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "84.3",
-     "qty": 419
+     "qty": 418
     },
     {
      "n": "Blue Dream",
@@ -89,7 +89,7 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.2",
-     "qty": 372
+     "qty": 371
     },
     {
      "n": "Peach Pie",
@@ -163,7 +163,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "55.5",
-     "qty": 78
+     "qty": 77
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -503,14 +503,14 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1028
+     "qty": 1027
     },
     {
      "n": "Super Silver Haze",
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "30.8",
-     "qty": 79
+     "qty": 75
     },
     {
      "n": "Black Triangle OG",
