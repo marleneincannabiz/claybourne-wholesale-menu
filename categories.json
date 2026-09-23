@@ -35,13 +35,13 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "84.1",
-     "qty": 245
+     "qty": 236
     },
     {
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "81.5",
-     "qty": 322
+     "qty": 312
     },
     {
      "n": "Wedding Cake",
@@ -77,13 +77,13 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "84.3",
-     "qty": 409
+     "qty": 399
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "82.8",
-     "qty": 776
+     "qty": 766
     },
     {
      "n": "Durban Poison",
@@ -123,19 +123,19 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "30.1",
-     "qty": 1381
+     "qty": 1371
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 692
+     "qty": 682
     },
     {
      "n": "Fast Lane",
      "t": "Sativa",
      "thc": "26.3",
-     "qty": 1619
+     "qty": 1606
     }
    ]
   },
@@ -169,7 +169,7 @@
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "46.5",
-     "qty": 892
+     "qty": 837
     },
     {
      "n": "Wedding Cake",
@@ -181,7 +181,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "43.8",
-     "qty": 923
+     "qty": 883
     },
     {
      "n": "Black Triangle OG",
@@ -193,13 +193,13 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 508
+     "qty": 499
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 445
+     "qty": 435
     },
     {
      "n": "Watermelon Z",
@@ -217,13 +217,13 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "50.2",
-     "qty": 276
+     "qty": 266
     },
     {
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "44.8",
-     "qty": 913
+     "qty": 873
     },
     {
      "n": "Strawberry Cough",
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 344
+     "qty": 334
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -275,13 +275,13 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "39.7",
-     "qty": 243
+     "qty": 233
     },
     {
      "n": "Banana OG",
      "t": "Indica",
      "thc": "39.9",
-     "qty": 674
+     "qty": 671
     },
     {
      "n": "Black Triangle OG",
@@ -299,7 +299,7 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "33.3",
-     "qty": 521
+     "qty": 508
     },
     {
      "n": "Watermelon Z",
@@ -311,7 +311,7 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "43.5",
-     "qty": 663
+     "qty": 653
     },
     {
      "n": "Peach Pie",
@@ -329,7 +329,7 @@
      "n": "Super Sour Apple",
      "t": "Hybrid",
      "thc": "44.3",
-     "qty": 194
+     "qty": 193
     },
     {
      "n": "Blue Dream",
@@ -366,13 +366,13 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "48.8",
-     "qty": 354
+     "qty": 341
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "58.8",
-     "qty": 154
+     "qty": 144
     }
    ]
   },
@@ -396,7 +396,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 1669
+     "qty": 1651
     },
     {
      "n": "Lemon Drop Top",
@@ -409,7 +409,7 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "24.2",
-     "qty": 1324
+     "qty": 1306
     },
     {
      "n": "The Judge",
@@ -494,7 +494,7 @@
      "t": "Hybrid",
      "gen": "Chem 91 x Pre-98 Bubba Kush",
      "thc": "31.6",
-     "qty": 3211
+     "qty": 3193
     },
     {
      "n": "King Louis OG",
@@ -508,21 +508,21 @@
      "t": "Indica",
      "gen": "GMO x Lurch",
      "thc": "26.8",
-     "qty": 1274
+     "qty": 1256
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1760
+     "qty": 1741
     },
     {
      "n": "Super Silver Haze",
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "30.8",
-     "qty": 54
+     "qty": 36
     },
     {
      "n": "Black Triangle OG",
