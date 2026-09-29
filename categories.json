@@ -41,7 +41,7 @@
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "81.5",
-     "qty": 281
+     "qty": 271
     },
     {
      "n": "Wedding Cake",
@@ -65,7 +65,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "82.2",
-     "qty": 866
+     "qty": 846
     },
     {
      "n": "King Louis OG",
@@ -77,19 +77,19 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "84.3",
-     "qty": 366
+     "qty": 356
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "82.8",
-     "qty": 694
+     "qty": 655
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.2",
-     "qty": 319
+     "qty": 299
     },
     {
      "n": "Peach Pie",
@@ -107,7 +107,7 @@
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "87.5",
-     "qty": 351
+     "qty": 341
     }
    ]
   },
@@ -123,19 +123,19 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "30.1",
-     "qty": 1226
+     "qty": 1179
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 622
+     "qty": 604
     },
     {
      "n": "Fast Lane",
      "t": "Sativa",
      "thc": "26.3",
-     "qty": 1464
+     "qty": 1427
     }
    ]
   },
@@ -175,7 +175,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid - Indica Dom",
      "thc": "44.6",
-     "qty": 580
+     "qty": 570
     },
     {
      "n": "Banana OG",
@@ -205,13 +205,13 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "53.0",
-     "qty": 583
+     "qty": 582
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "45.4",
-     "qty": 9
+     "qty": 0
     },
     {
      "n": "Durban Poison",
@@ -229,7 +229,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "44.3",
-     "qty": 573
+     "qty": 572
     },
     {
      "n": "Super Sour Apple",
@@ -251,7 +251,7 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "35.8",
-     "qty": 956
+     "qty": 936
     },
     {
      "n": "Mango Machine",
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 295
+     "qty": 273
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -275,7 +275,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "39.7",
-     "qty": 223
+     "qty": 203
     },
     {
      "n": "Banana OG",
@@ -293,13 +293,13 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "49.7",
-     "qty": 6
+     "qty": 0
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "33.3",
-     "qty": 483
+     "qty": 464
     },
     {
      "n": "Watermelon Z",
@@ -317,7 +317,7 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "33.4",
-     "qty": 650
+     "qty": 621
     },
     {
      "n": "Strawberry Cough",
@@ -335,7 +335,7 @@
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "36.5",
-     "qty": 424
+     "qty": 423
     }
    ]
   },
@@ -366,7 +366,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "48.8",
-     "qty": 233
+     "qty": 223
     },
     {
      "n": "Paradise Pomelo",
@@ -396,7 +396,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 1418
+     "qty": 1402
     },
     {
      "n": "Lemon Drop Top",
@@ -409,7 +409,7 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "24.2",
-     "qty": 1211
+     "qty": 1177
     },
     {
      "n": "The Judge",
@@ -501,21 +501,21 @@
      "t": "Indica",
      "gen": "OG Kush x LA Confidential",
      "thc": "27.7",
-     "qty": 6
+     "qty": 0
     },
     {
      "n": "Mule Fuel",
      "t": "Indica",
      "gen": "GMO x Lurch",
      "thc": "26.8",
-     "qty": 907
+     "qty": 889
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1574
+     "qty": 1542
     },
     {
      "n": "Super Silver Haze",
@@ -534,7 +534,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "27.9",
-     "qty": 1262
+     "qty": 1245
     }
    ]
   }
