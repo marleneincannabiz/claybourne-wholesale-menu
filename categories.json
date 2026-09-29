@@ -89,7 +89,7 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.2",
-     "qty": 299
+     "qty": 300
     },
     {
      "n": "Peach Pie",
@@ -193,13 +193,13 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "46.7",
-     "qty": 494
+     "qty": 493
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 356
+     "qty": 357
     },
     {
      "n": "Watermelon Z",
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 273
+     "qty": 275
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -286,8 +286,8 @@
     {
      "n": "Black Triangle OG",
      "t": "Indica",
-     "thc": "36.7",
-     "qty": 437
+     "thc": "41.0",
+     "qty": 435
     },
     {
      "n": "Grape Gasolina",
@@ -299,13 +299,13 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "33.3",
-     "qty": 464
+     "qty": 463
     },
     {
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "35.7",
-     "qty": 244
+     "qty": 243
     },
     {
      "n": "Durban Poison",
@@ -317,7 +317,7 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "33.4",
-     "qty": 621
+     "qty": 620
     },
     {
      "n": "Strawberry Cough",
