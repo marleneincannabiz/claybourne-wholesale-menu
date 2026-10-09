@@ -47,7 +47,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "82.8",
-     "qty": 995
+     "qty": 1020
     },
     {
      "n": "Banana OG",
@@ -175,7 +175,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid - Indica Dom",
      "thc": "44.6",
-     "qty": 380
+     "qty": 369
     },
     {
      "n": "Banana OG",
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "36.2",
-     "qty": 188
+     "qty": 189
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -317,19 +317,19 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "33.4",
-     "qty": 569
+     "qty": 568
     },
     {
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "39.3",
-     "qty": 518
+     "qty": 517
     },
     {
      "n": "Super Sour Apple",
      "t": "Hybrid",
-     "thc": "44.6",
-     "qty": 19
+     "thc": "44.3",
+     "qty": 23
     },
     {
      "n": "Blue Dream",
@@ -438,8 +438,8 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
-     "thc": "22.3",
-     "qty": 687
+     "thc": "24.4",
+     "qty": 684
     },
     {
      "n": "Purple Chem",
@@ -494,7 +494,7 @@
      "t": "Hybrid",
      "gen": "Chem 91 x Pre-98 Bubba Kush",
      "thc": "31.6",
-     "qty": 2701
+     "qty": 2684
     },
     {
      "n": "King Louis OG",
@@ -508,14 +508,14 @@
      "t": "Indica",
      "gen": "GMO x Lurch",
      "thc": "26.8",
-     "qty": 616
+     "qty": 583
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.3",
-     "qty": 1113
+     "qty": 1112
     },
     {
      "n": "Super Silver Haze",
@@ -534,7 +534,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "27.9",
-     "qty": 961
+     "qty": 944
     }
    ]
   }
