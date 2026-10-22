@@ -23,13 +23,13 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "83.3",
-     "qty": 1151
+     "qty": 1149
     },
     {
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "84.4",
-     "qty": 1227
+     "qty": 1225
     },
     {
      "n": "Pineapple Express",
@@ -41,7 +41,7 @@
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "81.5",
-     "qty": 1111
+     "qty": 1109
     },
     {
      "n": "Wedding Cake",
@@ -59,7 +59,7 @@
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "84.4",
-     "qty": 1056
+     "qty": 1054
     },
     {
      "n": "Grape Gasolina",
@@ -83,7 +83,7 @@
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "82.8",
-     "qty": 466
+     "qty": 454
     },
     {
      "n": "Durban Poison",
@@ -123,19 +123,19 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "26.6",
-     "qty": 3309
+     "qty": 3288
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 847
+     "qty": 815
     },
     {
      "n": "Fast Lane",
      "t": "Sativa",
      "thc": "26.3",
-     "qty": 1924
+     "qty": 1893
     }
    ]
   },
@@ -157,7 +157,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 474
+     "qty": 451
     },
     {
      "n": "Pineapple Express",
@@ -181,7 +181,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "43.8",
-     "qty": 526
+     "qty": 491
     },
     {
      "n": "Black Triangle OG",
@@ -205,7 +205,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "53.0",
-     "qty": 224
+     "qty": 212
     },
     {
      "n": "Blue Dream",
@@ -229,7 +229,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "44.3",
-     "qty": 65
+     "qty": 55
     },
     {
      "n": "Super Sour Apple",
@@ -251,7 +251,7 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "35.8",
-     "qty": 795
+     "qty": 793
     },
     {
      "n": "Mango Machine",
@@ -281,7 +281,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "39.9",
-     "qty": 513
+     "qty": 511
     },
     {
      "n": "Black Triangle OG",
@@ -323,7 +323,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "39.3",
-     "qty": 411
+     "qty": 410
     },
     {
      "n": "Super Sour Apple",
@@ -372,7 +372,7 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "47.0",
-     "qty": 681
+     "qty": 669
     }
    ]
   },
@@ -396,14 +396,14 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 1205
+     "qty": 1184
     },
     {
      "n": "Lemon Drop Top",
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "33.9",
-     "qty": 1229
+     "qty": 1147
     },
     {
      "n": "Paradise Pomelo",
@@ -445,13 +445,13 @@
      "n": "Purple Chem",
      "t": "Hybrid",
      "thc": "31.4",
-     "qty": 214
+     "qty": 206
     },
     {
      "n": "Mule Fuel",
      "t": "Indica",
      "thc": "26.9",
-     "qty": 263
+     "qty": 250
     },
     {
      "n": "Wedding Cake",
@@ -475,13 +475,13 @@
      "n": "Kush Mints",
      "t": "Hybrid",
      "thc": "32.3",
-     "qty": 668
+     "qty": 647
     },
     {
      "n": "Banana Sherbet",
      "t": "Indica",
      "thc": "26.3",
-     "qty": 500
+     "qty": 492
     },
     {
      "n": "Pineapple Express",
@@ -504,7 +504,7 @@
      "t": "Hybrid",
      "gen": "Trainwreck x Hawaiian",
      "thc": "20.3",
-     "qty": 1100
+     "qty": 1067
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -518,14 +518,14 @@
      "t": "Hybrid",
      "gen": "Chem 91 x Pre-98 Bubba Kush",
      "thc": "31.6",
-     "qty": 1965
+     "qty": 1948
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "gen": "OG Kush x LA Confidential",
      "thc": "33.0",
-     "qty": 2239
+     "qty": 2222
     },
     {
      "n": "Mule Fuel",
@@ -558,19 +558,19 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "27.9",
-     "qty": 461
+     "qty": 428
     },
     {
      "n": "Kush Mints",
      "t": "Hybrid",
      "thc": "36.6",
-     "qty": 3493
+     "qty": 3443
     },
     {
      "n": "Banana Sherbet",
      "t": "Indica",
      "thc": "29.1",
-     "qty": 4284
+     "qty": 4251
     }
    ]
   }
