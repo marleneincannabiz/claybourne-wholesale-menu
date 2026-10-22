@@ -29,13 +29,13 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "84.4",
-     "qty": 1205
+     "qty": 1206
     },
     {
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "86.3",
-     "qty": 10
+     "qty": 0
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -83,13 +83,13 @@
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "82.8",
-     "qty": 434
+     "qty": 433
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.3",
-     "qty": 51
+     "qty": 50
     },
     {
      "n": "Peach Pie",
@@ -129,7 +129,7 @@
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 745
+     "qty": 742
     },
     {
      "n": "Fast Lane",
@@ -151,7 +151,7 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "59.1",
-     "qty": 6
+     "qty": 0
     },
     {
      "n": "Mango Machine",
@@ -229,13 +229,13 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "54.0",
-     "qty": 20
+     "qty": 19
     },
     {
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "52.0",
-     "qty": 359
+     "qty": 358
     }
    ]
   },
@@ -257,7 +257,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "39.2",
-     "qty": 484
+     "qty": 483
     },
     {
      "n": "Pineapple Express",
@@ -269,7 +269,7 @@
      "n": "Lemon Cherry Gelato",
      "t": "Hybrid",
      "thc": "34.7",
-     "qty": 401
+     "qty": 400
     },
     {
      "n": "Wedding Cake",
@@ -299,7 +299,7 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "33.3",
-     "qty": 212
+     "qty": 213
     },
     {
      "n": "Watermelon Z",
@@ -311,13 +311,13 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "43.5",
-     "qty": 246
+     "qty": 241
     },
     {
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "33.4",
-     "qty": 463
+     "qty": 461
     },
     {
      "n": "Strawberry Cough",
@@ -352,7 +352,7 @@
      "t": "Indica",
      "gen": "Claybourne In-House",
      "thc": "53.5",
-     "qty": 39
+     "qty": 605
     },
     {
      "n": "Lemon Drop Top",
@@ -396,7 +396,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "31.0",
-     "qty": 1084
+     "qty": 1086
     },
     {
      "n": "Lemon Drop Top",
@@ -409,7 +409,7 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "24.2",
-     "qty": 87
+     "qty": 83
     },
     {
      "n": "The Judge",
