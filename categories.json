@@ -23,13 +23,13 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "83.3",
-     "qty": 1129
+     "qty": 1130
     },
     {
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "84.4",
-     "qty": 1206
+     "qty": 1205
     },
     {
      "n": "Pineapple Express",
@@ -77,19 +77,19 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "84.3",
-     "qty": 261
+     "qty": 262
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "82.8",
-     "qty": 433
+     "qty": 435
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "86.3",
-     "qty": 50
+     "qty": 51
     },
     {
      "n": "Peach Pie",
@@ -123,7 +123,7 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "26.6",
-     "qty": 3209
+     "qty": 3210
     },
     {
      "n": "Face Melter",
@@ -223,19 +223,19 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "44.8",
-     "qty": 431
+     "qty": 420
     },
     {
      "n": "Strawberry Cough",
      "t": "Sativa",
-     "thc": "44.3",
-     "qty": 24
+     "thc": "54.0",
+     "qty": 10
     },
     {
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "52.0",
-     "qty": 359
+     "qty": 349
     }
    ]
   },
@@ -257,7 +257,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "39.2",
-     "qty": 483
+     "qty": 482
     },
     {
      "n": "Pineapple Express",
@@ -317,7 +317,7 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "33.4",
-     "qty": 461
+     "qty": 459
     },
     {
      "n": "Strawberry Cough",
@@ -409,13 +409,13 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "24.2",
-     "qty": 83
+     "qty": 82
     },
     {
      "n": "The Judge",
      "t": "Indica",
-     "thc": "33.0",
-     "qty": 0
+     "thc": "35.7",
+     "qty": 3318
     }
    ]
   },
