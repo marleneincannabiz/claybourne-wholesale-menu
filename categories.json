@@ -235,7 +235,7 @@
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "52.0",
-     "qty": 201
+     "qty": 163
     }
    ]
   },
@@ -251,7 +251,7 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "35.8",
-     "qty": 712
+     "qty": 672
     },
     {
      "n": "Mango Machine",
@@ -352,7 +352,7 @@
      "t": "Indica",
      "gen": "Claybourne In-House",
      "thc": "56.2",
-     "qty": 465
+     "qty": 455
     },
     {
      "n": "Lemon Drop Top",
@@ -372,7 +372,7 @@
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "47.0",
-     "qty": 499
+     "qty": 489
     }
    ]
   },
@@ -403,19 +403,19 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "33.9",
-     "qty": 365
+     "qty": 332
     },
     {
      "n": "Paradise Pomelo",
      "t": "Sativa",
      "thc": "24.2",
-     "qty": 33
+     "qty": 32
     },
     {
      "n": "The Judge",
      "t": "Indica",
      "thc": "35.7",
-     "qty": 2639
+     "qty": 2605
     }
    ]
   },
@@ -564,13 +564,13 @@
      "n": "Kush Mints",
      "t": "Hybrid",
      "thc": "36.6",
-     "qty": 2834
+     "qty": 2817
     },
     {
      "n": "Banana Sherbet",
      "t": "Indica",
      "thc": "29.1",
-     "qty": 4017
+     "qty": 4032
     }
    ]
   }
