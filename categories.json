@@ -65,7 +65,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "82.2",
-     "qty": 740
+     "qty": 739
     },
     {
      "n": "King Louis OG",
@@ -157,7 +157,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 109
+     "qty": 108
     },
     {
      "n": "Pineapple Express",
@@ -235,7 +235,7 @@
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "52.0",
-     "qty": 55
+     "qty": 54
     }
    ]
   },
@@ -281,7 +281,7 @@
      "n": "Banana OG",
      "t": "Indica",
      "thc": "39.9",
-     "qty": 430
+     "qty": 429
     },
     {
      "n": "Black Triangle OG",
@@ -402,7 +402,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "30.0",
-     "qty": 3462
+     "qty": 3461
     },
     {
      "n": "Lemon Drop Top",
@@ -421,7 +421,7 @@
      "n": "The Judge",
      "t": "Indica",
      "thc": "35.7",
-     "qty": 2243
+     "qty": 2236
     }
    ]
   },
@@ -551,7 +551,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.6",
-     "qty": 1727
+     "qty": 1728
     },
     {
      "n": "Super Silver Haze",
@@ -582,7 +582,7 @@
      "n": "Banana Sherbet",
      "t": "Indica",
      "thc": "29.1",
-     "qty": 3914
+     "qty": 3913
     }
    ]
   }
