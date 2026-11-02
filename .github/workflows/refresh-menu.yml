@@ -2,12 +2,10 @@ name: Refresh Claybourne wholesale menu
 
 on:
   schedule:
-    # Cron times are always UTC and GitHub does not adjust for daylight saving.
-    # This is 7am/10am/1pm/4pm/7pm ET while ET is UTC-4 (EDT, roughly mid-March
-    # to early November). When DST ends and ET becomes UTC-5 (EST), change each
-    # hour here by -1 to keep firing at the same clock time in New York:
-    #   EDT (now):        0 11,14,17,20,23 * * 1-5
-    #   EST (after Nov):  0 12,15,18,21,0  * * 1-5   (the 0 lands at 12am UTC the next day)
+    # Cron times are UTC. GitHub drops or delays scheduled runs that start exactly
+    # on the hour, so this fires hourly at :17 past, weekdays, 11:17-23:17 UTC
+    # (about 6-7am through 6-7pm New York, depending on daylight saving).
+    # Even if some runs are skipped, the menu stays fresh.
     - cron: "17 11-23 * * 1-5"
   workflow_dispatch: {}
 
