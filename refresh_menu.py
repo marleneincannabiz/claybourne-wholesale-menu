@@ -28,6 +28,7 @@ import sys
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).parent
 INDEX_HTML = ROOT / "index.html"
@@ -241,7 +242,7 @@ def splice_html(html: str, data_js: str, batches_js: str) -> str:
     if n == 0:
         raise RuntimeError("could not locate 'var BATCHES = { ... };' block in index.html")
 
-    et = timezone(timedelta(hours=-4))  # EDT; flip to -5 after DST ends in Nov if this drifts
+    et = ZoneInfo("America/New_York")  # handles daylight saving automatically
     ts = datetime.now(et).strftime("%B %-d, %Y at %-I:%M %p ET")
     html, n = re.subn(
         r"last refreshed .*? from the Vireo wholesale inventory feed",
