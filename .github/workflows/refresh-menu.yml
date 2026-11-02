@@ -8,7 +8,7 @@ on:
     # hour here by -1 to keep firing at the same clock time in New York:
     #   EDT (now):        0 11,14,17,20,23 * * 1-5
     #   EST (after Nov):  0 12,15,18,21,0  * * 1-5   (the 0 lands at 12am UTC the next day)
-    - cron: "0 11,14,17,20,23 * * 1-5"
+    - cron: "17 11-23 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
