@@ -123,19 +123,19 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "26.6",
-     "qty": 2805
+     "qty": 2793
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
      "thc": "23.6",
-     "qty": 361
+     "qty": 350
     },
     {
      "n": "Fast Lane",
      "t": "Sativa",
      "thc": "26.3",
-     "qty": 1491
+     "qty": 1479
     }
    ]
   },
@@ -163,7 +163,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "42.9",
-     "qty": 980
+     "qty": 969
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -175,7 +175,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid - Indica Dom",
      "thc": "47.0",
-     "qty": 472
+     "qty": 462
     },
     {
      "n": "Banana OG",
@@ -205,13 +205,13 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "53.0",
-     "qty": 961
+     "qty": 955
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "45.4",
-     "qty": 839
+     "qty": 828
     },
     {
      "n": "Durban Poison",
@@ -570,7 +570,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "27.9",
-     "qty": 1827
+     "qty": 1793
     },
     {
      "n": "Kush Mints",
