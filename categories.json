@@ -123,7 +123,7 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "26.6",
-     "qty": 2716
+     "qty": 2714
     },
     {
      "n": "Face Melter",
@@ -157,7 +157,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 411
+     "qty": 412
     },
     {
      "n": "Pineapple Express",
@@ -193,7 +193,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "57.6",
-     "qty": 353
+     "qty": 343
     },
     {
      "n": "King Louis OG",
@@ -217,7 +217,7 @@
      "n": "Durban Poison",
      "t": "Sativa",
      "thc": "50.2",
-     "qty": 303
+     "qty": 293
     },
     {
      "n": "Peach Pie",
@@ -228,14 +228,14 @@
     {
      "n": "Strawberry Cough",
      "t": "Sativa",
-     "thc": "54.0",
-     "qty": 0
+     "thc": "59.4",
+     "qty": 987
     },
     {
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "52.0",
-     "qty": 805
+     "qty": 806
     }
    ]
   },
@@ -263,7 +263,7 @@
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "44.5",
-     "qty": 304
+     "qty": 305
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -280,8 +280,8 @@
     {
      "n": "Banana OG",
      "t": "Indica",
-     "thc": "39.9",
-     "qty": 274
+     "thc": "41.4",
+     "qty": 273
     },
     {
      "n": "Black Triangle OG",
@@ -299,13 +299,13 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "42.0",
-     "qty": 7
+     "qty": 0
     },
     {
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "35.7",
-     "qty": 635
+     "qty": 634
     },
     {
      "n": "Durban Poison",
@@ -323,7 +323,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "39.3",
-     "qty": 28
+     "qty": 27
     },
     {
      "n": "Super Sour Apple",
@@ -402,7 +402,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "30.0",
-     "qty": 5387
+     "qty": 5386
     },
     {
      "n": "Lemon Drop Top",
@@ -544,7 +544,7 @@
      "t": "Indica",
      "gen": "GMO x Lurch",
      "thc": "25.4",
-     "qty": 7042
+     "qty": 7041
     },
     {
      "n": "Durban Poison",
@@ -558,7 +558,7 @@
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "22.3",
-     "qty": 2487
+     "qty": 2486
     },
     {
      "n": "Black Triangle OG",
@@ -570,7 +570,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "27.9",
-     "qty": 1743
+     "qty": 1740
     },
     {
      "n": "Kush Mints",
