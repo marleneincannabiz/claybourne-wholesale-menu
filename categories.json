@@ -123,19 +123,19 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "26.6",
-     "qty": 2567
+     "qty": 2566
     },
     {
      "n": "Face Melter",
      "t": "Hybrid",
-     "thc": "23.6",
-     "qty": 151
+     "thc": "26.0",
+     "qty": 149
     },
     {
      "n": "Fast Lane",
      "t": "Sativa",
      "thc": "26.3",
-     "qty": 1226
+     "qty": 1227
     }
    ]
   },
@@ -151,13 +151,13 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "51.9",
-     "qty": 353
+     "qty": 352
     },
     {
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 312
+     "qty": 318
     },
     {
      "n": "Pineapple Express",
@@ -193,7 +193,7 @@
      "n": "Grape Gasolina",
      "t": "Indica",
      "thc": "57.6",
-     "qty": 124
+     "qty": 99
     },
     {
      "n": "King Louis OG",
@@ -205,13 +205,13 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "61.3",
-     "qty": 704
+     "qty": 709
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "45.4",
-     "qty": 612
+     "qty": 619
     },
     {
      "n": "Durban Poison",
@@ -305,7 +305,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "35.7",
-     "qty": 636
+     "qty": 635
     },
     {
      "n": "Durban Poison",
@@ -329,7 +329,7 @@
      "n": "Super Sour Apple",
      "t": "Hybrid",
      "thc": "56.5",
-     "qty": 247
+     "qty": 183
     },
     {
      "n": "Blue Dream",
@@ -366,7 +366,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "61.1",
-     "qty": 473
+     "qty": 409
     },
     {
      "n": "Paradise Pomelo",
@@ -551,7 +551,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.6",
-     "qty": 2255
+     "qty": 2258
     },
     {
      "n": "Super Silver Haze",
