@@ -151,19 +151,19 @@
      "n": "Lemon Lime Kush",
      "t": "Hybrid",
      "thc": "51.9",
-     "qty": 136
+     "qty": 126
     },
     {
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "41.2",
-     "qty": 154
+     "qty": 144
     },
     {
      "n": "Pineapple Express",
      "t": "Hybrid",
      "thc": "42.9",
-     "qty": 440
+     "qty": 420
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -187,7 +187,7 @@
      "n": "Black Triangle OG",
      "t": "Indica",
      "thc": "47.5",
-     "qty": 171
+     "qty": 161
     },
     {
      "n": "Grape Gasolina",
@@ -199,19 +199,19 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 73
+     "qty": 53
     },
     {
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "61.3",
-     "qty": 392
+     "qty": 372
     },
     {
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "45.4",
-     "qty": 230
+     "qty": 220
     },
     {
      "n": "Durban Poison",
@@ -229,13 +229,13 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "59.4",
-     "qty": 619
+     "qty": 599
     },
     {
      "n": "Super Sour Apple",
      "t": "Sativa",
      "thc": "52.0",
-     "qty": 528
+     "qty": 509
     }
    ]
   },
@@ -366,7 +366,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "61.1",
-     "qty": 159
+     "qty": 149
     },
     {
      "n": "Paradise Pomelo",
@@ -395,7 +395,7 @@
      "t": "Indica",
      "gen": "Claybourne In-House",
      "thc": "32.5",
-     "qty": 6303
+     "qty": 6270
     },
     {
      "n": "Cobra Kush",
@@ -522,7 +522,7 @@
      "t": "Hybrid",
      "gen": "Trainwreck x Hawaiian",
      "thc": "20.3",
-     "qty": 520
+     "qty": 536
     },
     {
      "n": "Lemon Cherry Gelato",
@@ -536,35 +536,35 @@
      "t": "Hybrid",
      "gen": "Chem 91 x Pre-98 Bubba Kush",
      "thc": "26.3",
-     "qty": 3101
+     "qty": 3116
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "gen": "OG Kush x LA Confidential",
      "thc": "26.7",
-     "qty": 5591
+     "qty": 5606
     },
     {
      "n": "Mule Fuel",
      "t": "Indica",
      "gen": "GMO x Lurch",
      "thc": "25.4",
-     "qty": 6589
+     "qty": 6604
     },
     {
      "n": "Durban Poison",
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.6",
-     "qty": 2024
+     "qty": 2039
     },
     {
      "n": "Super Silver Haze",
      "t": "Hybrid",
      "gen": "Skunk x Northern Lights x Haze",
      "thc": "22.3",
-     "qty": 2219
+     "qty": 2234
     },
     {
      "n": "Black Triangle OG",
@@ -576,19 +576,19 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "27.9",
-     "qty": 1477
+     "qty": 1491
     },
     {
      "n": "Kush Mints",
      "t": "Hybrid",
      "thc": "36.6",
-     "qty": 1290
+     "qty": 1305
     },
     {
      "n": "Banana Sherbet",
      "t": "Indica",
      "thc": "29.1",
-     "qty": 5421
+     "qty": 5436
     }
    ]
   }
