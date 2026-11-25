@@ -123,7 +123,7 @@
      "n": "Bake Sale",
      "t": "Hybrid",
      "thc": "26.6",
-     "qty": 2205
+     "qty": 2179
     },
     {
      "n": "Face Melter",
@@ -135,7 +135,7 @@
      "n": "Fast Lane",
      "t": "Sativa",
      "thc": "26.3",
-     "qty": 851
+     "qty": 824
     }
    ]
   },
@@ -157,7 +157,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "50.0",
-     "qty": 71
+     "qty": 70
     },
     {
      "n": "Pineapple Express",
@@ -211,7 +211,7 @@
      "n": "Blue Dream",
      "t": "Sativa",
      "thc": "57.7",
-     "qty": 82
+     "qty": 61
     },
     {
      "n": "Durban Poison",
@@ -229,7 +229,7 @@
      "n": "Strawberry Cough",
      "t": "Sativa",
      "thc": "59.4",
-     "qty": 436
+     "qty": 415
     },
     {
      "n": "Super Sour Apple",
@@ -275,7 +275,7 @@
      "n": "Wedding Cake",
      "t": "Hybrid",
      "thc": "51.6",
-     "qty": 163
+     "qty": 142
     },
     {
      "n": "Banana OG",
@@ -305,7 +305,7 @@
      "n": "Watermelon Z",
      "t": "Hybrid",
      "thc": "35.7",
-     "qty": 459
+     "qty": 448
     },
     {
      "n": "Durban Poison",
@@ -317,7 +317,7 @@
      "n": "Peach Pie",
      "t": "Sativa",
      "thc": "38.8",
-     "qty": 54
+     "qty": 53
     },
     {
      "n": "Strawberry Cough",
@@ -378,7 +378,7 @@
      "n": "Strawberry C.R.E.A.M",
      "t": "Sativa",
      "thc": "46.0",
-     "qty": 869
+     "qty": 826
     }
    ]
   },
@@ -402,7 +402,7 @@
      "t": "Hybrid",
      "gen": "Claybourne In-House",
      "thc": "30.0",
-     "qty": 4583
+     "qty": 4585
     },
     {
      "n": "Lemon Drop Top",
@@ -536,14 +536,14 @@
      "t": "Hybrid",
      "gen": "Chem 91 x Pre-98 Bubba Kush",
      "thc": "26.3",
-     "qty": 2953
+     "qty": 2922
     },
     {
      "n": "King Louis OG",
      "t": "Indica",
      "gen": "OG Kush x LA Confidential",
      "thc": "26.7",
-     "qty": 5564
+     "qty": 5499
     },
     {
      "n": "Mule Fuel",
@@ -557,7 +557,7 @@
      "t": "Sativa",
      "gen": "African Landrace Strain",
      "thc": "25.6",
-     "qty": 1866
+     "qty": 1803
     },
     {
      "n": "Super Silver Haze",
@@ -582,7 +582,7 @@
      "n": "Kush Mints",
      "t": "Hybrid",
      "thc": "36.6",
-     "qty": 1146
+     "qty": 1081
     },
     {
      "n": "Banana Sherbet",
