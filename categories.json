@@ -157,7 +157,7 @@
      "n": "Mango Machine",
      "t": "Sativa",
      "thc": "50.0",
-     "qty": 70
+     "qty": 50
     },
     {
      "n": "Pineapple Express",
@@ -199,7 +199,7 @@
      "n": "King Louis OG",
      "t": "Indica",
      "thc": "47.6",
-     "qty": 0
+     "qty": 14
     },
     {
      "n": "Watermelon Z",
@@ -409,7 +409,7 @@
      "t": "Sativa",
      "gen": "Claybourne In-House",
      "thc": "33.9",
-     "qty": 0
+     "qty": 16
     },
     {
      "n": "Paradise Pomelo",
@@ -550,7 +550,7 @@
      "t": "Indica",
      "gen": "GMO x Lurch",
      "thc": "25.4",
-     "qty": 6423
+     "qty": 6424
     },
     {
      "n": "Durban Poison",
